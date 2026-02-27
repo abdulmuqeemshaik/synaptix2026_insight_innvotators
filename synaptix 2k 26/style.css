@@ -1,0 +1,58 @@
+@keyframes fade-in {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+    animation: fade-in 0.5s ease-out;
+}
+
+.option-card {
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.option-card:hover {
+    background: rgba(6, 182, 212, 0.1);
+    border-color: rgba(6, 182, 212, 0.5);
+    transform: translateX(4px);
+}
+
+.option-card.selected {
+    background: rgba(6, 182, 212, 0.2);
+    border-color: cyan;
+}
+
+.option-card.correct {
+    background: rgba(34, 197, 94, 0.2);
+    border-color: rgb(34, 197, 94);
+    animation: pulse-green 0.5s;
+}
+
+.option-card.incorrect {
+    background: rgba(239, 68, 68, 0.2);
+    border-color: rgb(239, 68, 68);
+}
+
+@keyframes pulse-green {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.02); }
+}
+
+.difficulty-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.2);
+    transition: all 0.3s;
+}
+
+.difficulty-dot.active {
+    background: cyan;
+    box-shadow: 0 0 8px cyan;
+}
+
+.difficulty-dot.high {
+    background: #f59e0b;
+    box-shadow: 0 0 8px #f59e0b;
+}
