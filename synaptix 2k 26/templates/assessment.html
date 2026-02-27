@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assessment</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+<div class="container">
+    <h3>Section: {{ section }}</h3>
+    <h4>Difficulty Level: {{ difficulty }}</h4>
+
+    <form action="/submit" method="POST">
+        <p>{{ question }}</p>
+
+        {% for option in options %}
+            <label>
+                <input type="radio" name="option" value="{{ option }}" required>
+                {{ option }}
+            </label><br>
+        {% endfor %}
+
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+</body>
+</html>
