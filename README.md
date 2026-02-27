@@ -5,3 +5,8 @@ Develop an adaptive online assessment platform that dynamically adjusts question
 
 Web-based adaptive assessment platform built using HTML, CSS, and JavaScript.
 The system dynamically adjusts question difficulty based on user responses and generates a personalized competency report at the end of the assessment.
+
+
+The assessment results can be exported as a detailed PDF report, including overall performance, topic-wise mastery levels, performance analysis, and personalized study recommendations.
+The report provides clear visual insights into strengths and areas that require improvement.
+This downloadable format allows students and educators to track progress and review performance anytime.
