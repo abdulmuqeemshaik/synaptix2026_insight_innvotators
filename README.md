@@ -12,4 +12,5 @@ The report provides clear visual insights into strengths and areas that require 
 This downloadable format allows students and educators to track progress and review performance anytime.
 
 System archicture
-<img width="1095" height="988" alt="graphviz" src="https://github.com/user-attachments/assets/2d4c58f7-c60f-4577-ad67-ae0d7d046130" />
+
+<img width="800" height="500" alt="graphviz" src="https://github.com/user-attachments/assets/2d4c58f7-c60f-4577-ad67-ae0d7d046130" />
