@@ -13,4 +13,4 @@ This downloadable format allows students and educators to track progress and rev
 
 System archicture
 
-<img width="800" height="500" alt="graphviz" src="https://github.com/user-attachments/assets/2d4c58f7-c60f-4577-ad67-ae0d7d046130" />
+<img width="600" height="378" alt="graphviz" src="https://github.com/user-attachments/assets/2d4c58f7-c60f-4577-ad67-ae0d7d046130" />
