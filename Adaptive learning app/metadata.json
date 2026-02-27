@@ -1,0 +1,5 @@
+{
+  "name": "Adaptive Assessment Platform",
+  "description": "An adaptive online assessment platform that dynamically adjusts question difficulty and generates personalized competency profiles.",
+  "requestFramePermissions": []
+}
