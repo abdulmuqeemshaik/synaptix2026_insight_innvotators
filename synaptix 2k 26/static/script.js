@@ -1,1 +1,0 @@
-console.log("Adaptive Assessment Platform Loaded");
